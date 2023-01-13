@@ -1,10 +1,18 @@
 import React from 'react';
+import {BrowserRouter, Routes, Route} from 'react'
 
 function App() {
     return (
-        <>
-            <h1>hello, world</h1>
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Router></Router>
+                <Router></Router>
+                <Router></Router>
+            </Routes>
+        </BrowserRouter>
+
+            
+        
     );
 }
 
